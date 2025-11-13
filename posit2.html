@@ -3,11 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
-  
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+    }
+
+    .gray {
+      position: relative;
+      width: 600px;
+      height: 600px;
+      background-color: gray;
+      border: 3px solid #333;
+    }
+
     .box {
-      width: 200px;
-      height: 200px;
+      width: 150px;
+      height: 150px;
       position: absolute;
     }
 
@@ -37,9 +54,11 @@
   </style>
 </head>
 <body>
-  <div class="box box1"></div>
-  <div class="box box2"></div>
-  <div class="box box3"></div>
-  <div class="box box4"></div>
+  <div class="gray">
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+  </div>
 </body>
 </html>
